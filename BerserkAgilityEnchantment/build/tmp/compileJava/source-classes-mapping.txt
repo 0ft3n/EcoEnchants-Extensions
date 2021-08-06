@@ -1,0 +1,4 @@
+me/often/berserkagilityenchantment/BerserkAgility.java
+ me.often.berserkagilityenchantment.BerserkAgility
+me/often/berserkagilityenchantment/BerserkAgilityMain.java
+ me.often.berserkagilityenchantment.BerserkAgilityMain

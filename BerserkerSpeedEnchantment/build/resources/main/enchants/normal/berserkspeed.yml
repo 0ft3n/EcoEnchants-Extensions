@@ -1,0 +1,28 @@
+#
+# Berserk Speed EcoEnchant
+#
+
+name: "Berserk Speed"
+description: Increases your movement speed based on how low on health you are
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: common
+
+general-config:
+  targets:
+    - helmet
+    - chestplate
+    - leggings
+    - boots
+    - elytra
+  grindstoneable: true
+  disabled-in-worlds: []
+  conflicts: []
+  maximum-level: 3
+
+config:
+  per-health-speed-per-level: 0.1 # For enchantment level 1: 0.1*1 speed per lost health, for enchantment level 2: 0.1*2 speed per lost health, etc...

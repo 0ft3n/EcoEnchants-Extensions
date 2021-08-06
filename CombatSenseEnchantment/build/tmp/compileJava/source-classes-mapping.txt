@@ -1,0 +1,8 @@
+me/often/combatsenseenchantment/Utils/MessageUtils.java
+ me.often.combatsenseenchantment.Utils.MessageUtils
+me/often/combatsenseenchantment/CombatSenseMain.java
+ me.often.combatsenseenchantment.CombatSenseMain
+me/often/combatsenseenchantment/Utils/ColorUtils.java
+ me.often.combatsenseenchantment.Utils.ColorUtils
+me/often/combatsenseenchantment/CombatSense.java
+ me.often.combatsenseenchantment.CombatSense

@@ -1,0 +1,36 @@
+#
+# Combat Sense EcoEnchant
+#
+
+name: "Combat Sense"
+description: See nearby entities through walls.
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: legendary
+
+general-config:
+  targets:
+    - sword
+    - axe
+    - trident
+  grindstoneable: true
+  disabled-in-worlds: [ ]
+  conflicts: [ ]
+  maximum-level: 3
+
+config:
+  enable-activation-sound: true #If the usage of this spell should be followed with a sound effect
+  activation-sound: ENTITY_ENDERMAN_TELEPORT #The name of a sound when the spell is activated. Only if "enable-activation-sound" is set to true
+  enable-particle-effect: true #If the usage of this spell should be followed with a particle effect
+  particle-effect: "TOTEM" #The name of a particle. Only if "enable-particle-effect" is set to true
+  no-targets-message: "actionbar! &6There are no entities nearby"
+  cooldown: 1 #In seconds
+  apply-on-animals: true #Should this spell affect animals in the radius
+  apply-on-monsters: true #Should this spell affect monsters in the radius
+  apply-on-players: true #Should this spell affect players in the radius
+  radius-per-level: 3 #Blocks on all sides to scan per level
+  ticks-per-level: 20 #Amount of ticks per level to glow entities for

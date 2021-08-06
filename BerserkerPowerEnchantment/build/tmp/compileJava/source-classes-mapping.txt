@@ -1,0 +1,4 @@
+me/often/berserkpowerenchantment/BerserkPowerMain.java
+ me.often.berserkpowerenchantment.BerserkPowerMain
+me/often/berserkpowerenchantment/BerserkPower.java
+ me.often.berserkpowerenchantment.BerserkPower

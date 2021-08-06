@@ -1,0 +1,4 @@
+me/often/berserkspeedenchantment/BerserkSpeedMain.java
+ me.often.berserkspeedenchantment.BerserkSpeedMain
+me/often/berserkspeedenchantment/BerserkSpeed.java
+ me.often.berserkspeedenchantment.BerserkSpeed

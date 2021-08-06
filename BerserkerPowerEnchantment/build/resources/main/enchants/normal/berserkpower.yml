@@ -1,0 +1,25 @@
+#
+# Berserk Power EcoEnchant
+#
+
+name: "Berserk Power"
+description: Increases your attack damage based on how low on health you are
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: common
+
+general-config:
+  targets:
+    - sword
+    - axe
+  grindstoneable: true
+  disabled-in-worlds: []
+  conflicts: []
+  maximum-level: 3
+
+config:
+  per-health-damage-per-level: 0.1 # For enchantment level 1: 0.1*1 damage per lost health, for enchantment level 2: 0.1*2 damage per lost health, etc...

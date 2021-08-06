@@ -1,0 +1,4 @@
+me/often/ambushenchantment/AmbushMain.java
+ me.often.ambushenchantment.AmbushMain
+me/often/ambushenchantment/Ambush.java
+ me.often.ambushenchantment.Ambush

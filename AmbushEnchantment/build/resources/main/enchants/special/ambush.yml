@@ -1,0 +1,33 @@
+#
+# Ambush EcoEnchant
+#
+
+name: "Ambush"
+description: Launches a hail of arrows at the place your arrow has landed
+enabled: true
+
+obtaining:
+  table: true
+  villager: true
+  loot: true
+  rarity: special
+
+general-config:
+  targets:
+    - bow
+    - crossbow
+  grindstoneable: true
+  disabled-in-worlds: []
+  conflicts:
+    - buckshot
+    - instability
+    - tripleshot
+    - multishot
+  maximum-level: 3
+
+config:
+  arrows-per-level: 2 #Arrows that spawn around per level
+  arrow-speed-per-level: 2 #Fly speed of arrows per level
+  arrows-spread: 5 #How strong will arrows spread around
+  require-full-force: true #Will the full force of bow be required for the enchantment to work
+  max-arrows-height: 10 #Maximum height above hit location at which arrows will spawn
